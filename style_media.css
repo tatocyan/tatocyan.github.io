@@ -1,0 +1,77 @@
+/*------------------------スマホ用---------------------------*/
+@media (max-width:767px){
+    
+    main{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    header{
+        height: 3em;
+    }
+    /*------------------------*/
+    .click h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    /*------menu-----*/
+    .menu{
+        font-size: 1em;
+    }
+    .menu-element{
+        text-align: center;
+    }
+    /*------------------------*/
+    .wrapper1 h1{
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .wrapper1 p{
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 25px;
+
+    }
+    /*--------------ロゴマーク--------------*/
+    .logo{
+        float: none;
+        margin: 0;
+    }
+    .logo-font{
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .logo-font p{
+        margin: -50px 20% 50px;
+        border: 1px dashed black; 
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-indent: 2px;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
+    }
+    /*---------------table----------------*/
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .link table{
+        margin-top: 30px; 
+    }
+    .link table th{
+        text-align: center;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+    .link table td{
+        font-size: 14px;
+        text-align: left;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+    /*---------------slickスライド------------------*/
+    .slick-slide{
+        height: 70vw !important;
+    }
+}

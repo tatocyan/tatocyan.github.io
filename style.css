@@ -1,0 +1,195 @@
+/*------------body,header,main,footer,img,----------*/
+
+body{
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+header{
+    position: fixed;
+    background-color: rgb(211,050,050);
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-indent: 10px;
+}
+
+a{color: black;}
+a:hover{color: gold;}
+
+/*--------------------jQuery用----------------------*/
+.first{
+    display: none;
+}
+.click{
+    /*margin: 350px auto;*/
+}
+/*--------画面中央--------*/
+.out{
+    display: table;
+    width:  100vw;
+    height: 100vh;
+}
+.center{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+/*-----------------------*/
+.click h1{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+    letter-spacing: 1em;
+    color: gold;
+    padding: 10px
+}
+.click h1:hover{
+    color: yellow;
+}
+.click .char1{
+    text-indent: 1em;
+}
+#top-h2{
+    opacity: 0;
+}
+/*-------------------Menuバー----------------------*/
+.menu{
+    text-align: right;
+    font-size: 30px;
+    color: rgb(246,246,246);
+}
+.menu a{
+    color: rgb(246,246,246);
+    text-decoration: none;
+}
+.menu-title{
+    display: inline-block;
+    margin-right: 1.5em;
+}
+.menu-title:hover,.menu-element:hover{
+    color: silver;
+    cursor: pointer;
+}
+.menu-element{
+    display: none;
+}
+.menu-element li{
+    display: inline-block;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+.menu-element :hover{
+    opacity: 0.5;
+}
+/*-------------------------------------------------*/
+.subtitle {
+    padding: 10px 20px;
+    background: silver;
+}
+
+.wrapper1{
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.top-h1{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.wrapper1 h1{
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-indent: 20px;
+    margin-bottom: 0;
+    position: relative;
+}
+.wrapper1 p{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 9px;
+    text-indent: 9px;
+    margin-top: -25px;
+}
+
+/*--------------ロゴマーク--------------*/
+.logo{
+    float: right;
+    margin-right: 50px;
+}
+.logo img{
+    width: 300px;
+}
+.logo-font{
+    float: right;
+    text-align: right;
+    margin-top: 90px;
+    margin-left: -100px;
+}
+.logo-font p{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "游ゴシック";
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+/*--------------table---------------*/
+
+.profile table{
+    margin-top: 50px;
+    float: left;
+}
+table th{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+table td{
+    text-align: left;
+    padding-left: 40px;
+}
+
+/*-----------------------------------*/
+
+.clear{
+    clear: both;
+}
+
+/*---------slickスライドショー---------*/
+.achivement {
+    margin: 0 auto;
+}
+
+.slick-slide{
+    height: 50vw !important;
+    width: 100%;
+    object-fit: cover;
+}
+

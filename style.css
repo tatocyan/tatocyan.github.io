@@ -176,6 +176,15 @@ table td{
     padding-left: 40px;
 }
 
+/*--------------button---------------*/
+
+.logobutton{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 15px;
+    letter-spacing: 10px;
+    text-indent: 10px;
+}
+
 /*-----------------------------------*/
 
 .clear{

@@ -178,11 +178,18 @@ table td{
 
 /*--------------button---------------*/
 
+.button{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
 .logobutton{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 15px;
     letter-spacing: 10px;
     text-indent: 10px;
+    border: none;
+    padding: 10;
 }
 
 /*-----------------------------------*/

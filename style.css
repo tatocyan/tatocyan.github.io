@@ -183,6 +183,11 @@ table td{
     margin-top: 50px;
 }
 
+.button:hover{
+	color: #e4d33e;
+	font-weight: bold;
+}
+
 .logobutton{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 15px;

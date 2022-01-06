@@ -71,7 +71,7 @@ a:hover{color: gold;}
     padding: 10px
 }
 .click h1:hover{
-    color: yellow;
+    color: rgb(21, 99, 122);
 }
 .click .char1{
     text-indent: 1em;
@@ -183,11 +183,6 @@ table td{
     margin-top: 50px;
 }
 
-.button:hover{
-	color: #e4d33e;
-	font-weight: bold;
-}
-
 .logobutton{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 15px;
@@ -195,6 +190,11 @@ table td{
     text-indent: 10px;
     border: none;
     padding: 10;
+}
+
+.logobutton:hover{
+	color: #e4d33e;
+	font-weight: bold;
 }
 
 /*-----------------------------------*/
